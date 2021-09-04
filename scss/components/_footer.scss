@@ -1,0 +1,48 @@
+footer{
+    .cabezote{
+        display:$display;
+        justify-content: space-around;
+        align-items: map-get($mapa1 , alineacion );
+        width: $max-width;
+        @extend %pantalla
+    }
+
+#logoPersonal{
+    width:$max-width;
+    }
+
+    nav{
+
+        ul{
+        display: $display;
+        justify-content: space-around;
+        width: $max-width;
+        color:$color2;
+        list-style: none;
+        text-decoration: none;
+
+        li{
+
+            a{
+                text-transform: uppercase;
+                list-style: none;
+                text-decoration: none;
+                color: $color2;
+                
+
+            &:hover{
+                background-color: $color1;
+                color: $color3;
+                padding: 10px;
+            }
+
+            }
+
+
+        }
+    }
+}
+
+
+
+}

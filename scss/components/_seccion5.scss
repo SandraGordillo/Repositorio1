@@ -1,0 +1,47 @@
+#contacto{
+    width: $max-width;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: map-get($mapa1 , padding-general );
+    padding-bottom: map-get($mapa1 , padding-general );
+    height: 400px;
+    align-items: map-get($mapa1 , alineacion );
+    
+
+@media only screen and (max-width: 576px){
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: map-get($mapa1 , margenes );
+        height: map-get($mapa1 , margenes );
+    }
+
+@media only screen and (max-width: 768px){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: map-get($mapa1 , margenes );
+    height: map-get($mapa1 , margenes );
+    }
+
+p{
+    font-family: $font-principal;
+    font-size: $titulos-medida;
+    color: $color1;
+    text-align: map-get($mapa1 , alineacion );
+    width: 90%;
+    margin: map-get($mapa1 , margenes );
+    padding-top: map-get($mapa1 , padding-general );
+    }
+    
+img{
+    width: 10%;
+    padding-top: map-get($mapa1 , padding-general );
+    margin: map-get($mapa1 , margenes );
+    display: $display;
+    align-items: map-get($mapa1 , alineacion );
+    }
+
+}
+
+
+
