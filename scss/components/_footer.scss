@@ -19,14 +19,14 @@ footer{
         width: $max-width;
         color:$color2;
         list-style: none;
-        text-decoration: none;
+        text-decoration: underline;
 
         li{
 
             a{
                 text-transform: uppercase;
                 list-style: none;
-                text-decoration: none;
+                text-decoration: underline;
                 color: $color2;
                 
 
