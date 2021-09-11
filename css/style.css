@@ -310,6 +310,16 @@ footer .cabezote {
 footer #logoPersonal {
   width: 100%;
 }
+@media only screen and (max-width: 576px) {
+  footer nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer nav {
+    display: none;
+  }
+}
 footer nav ul {
   display: flex;
   justify-content: space-around;
