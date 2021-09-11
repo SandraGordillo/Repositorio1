@@ -1,0 +1,58 @@
+#recomendaciones{
+    width: $max-width;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: $color1;
+    height: 600px;
+    align-items: center;
+    @include colores;
+    
+
+@media only screen and (max-width: 576px){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: map-get($mapa1 , margenes );
+    height: map-get($mapa1 , margenes );
+    }
+
+@media only screen and (max-width: 768px){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: map-get($mapa1 , margenes );
+    height: map-get($mapa1 , margenes );
+        }
+
+h3{
+    font-size: $titulos-medida;
+    color:$color3;
+    text-align: map-get($mapa1 , alineacion );
+    text-transform: uppercase;
+    font-family: $font-principal;
+    padding-top: map-get($mapa1 , padding-general );
+    width: 90%;
+    margin: map-get($mapa1 , margenes );
+    @include colores;
+    }
+    
+p{
+    font-family: $font-principal;
+    font-size: $parrafos_medida;
+    color: $color3;
+    text-align: map-get($mapa1 , alineacion );
+    width: 90%;
+    margin: map-get($mapa1 , margenes );
+    padding-top: map-get($mapa1 , padding-general );
+    padding-bottom:map-get($mapa1 , padding-general );
+    }
+    
+img{
+    width:30%;
+    padding-top: map-get($mapa1 , padding-general );
+    margin: map-get($mapa1 , margenes );
+    display:$display;
+    align-items: map-get($mapa1 , alineacion );
+    }
+
+}
+
