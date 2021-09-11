@@ -33,6 +33,10 @@
     font-family: $font-principal;
     font-size: $parrafos_medida;
     color:$color3;
+<<<<<<< HEAD
+=======
+    @include colores;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
     }
 
 h3{
@@ -42,12 +46,20 @@ h3{
     text-transform: uppercase;
     font-family: $font-principal;
     padding-top: 40px;
+<<<<<<< HEAD
+=======
+    @include colores;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
     }
     
 p{
     font-family: $font-principal;
     font-size: $parrafos_medida;
+<<<<<<< HEAD
     color: black;
+=======
+    color: $color1;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
     text-align: left;
     }
 
