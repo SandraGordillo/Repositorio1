@@ -33,7 +33,6 @@
     font-family: $font-principal;
     font-size: $parrafos_medida;
     color:$color3;
-    @include colores;
     }
 
 h3{
@@ -43,13 +42,12 @@ h3{
     text-transform: uppercase;
     font-family: $font-principal;
     padding-top: 40px;
-    @include colores;
     }
     
 p{
     font-family: $font-principal;
     font-size: $parrafos_medida;
-    color: $color1;
+    color: black;
     text-align: left;
     }
 

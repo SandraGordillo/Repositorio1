@@ -168,10 +168,6 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #fff;
-  color: blueviolet;
-  color: white;
-  color: black;
-  color: #f4f4f4;
 }
 #estudios-experiencia h3 {
   font-size: 18px;
@@ -180,15 +176,11 @@ h1 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   padding-top: 40px;
-  color: blueviolet;
-  color: white;
-  color: black;
-  color: #f4f4f4;
 }
 #estudios-experiencia p {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: blueviolet;
+  color: black;
   text-align: left;
 }
 #estudios-experiencia img {
