@@ -205,10 +205,6 @@ h1 {
   background-color: blueviolet;
   height: 600px;
   align-items: center;
-  color: blueviolet;
-  color: white;
-  color: black;
-  color: #f4f4f4;
 }
 @media only screen and (max-width: 576px) {
   #recomendaciones {
@@ -228,22 +224,18 @@ h1 {
 }
 #recomendaciones h3 {
   font-size: 18px;
-  color: #fff;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   padding-top: 30px;
   width: 90%;
   margin: auto;
-  color: blueviolet;
-  color: white;
-  color: black;
-  color: #f4f4f4;
 }
 #recomendaciones p {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: #fff;
+  color: white;
   text-align: center;
   width: 90%;
   margin: auto;

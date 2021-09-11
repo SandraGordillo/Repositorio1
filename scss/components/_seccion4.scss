@@ -6,7 +6,7 @@
     background-color: $color1;
     height: 600px;
     align-items: center;
-    @include colores;
+    
     
 
 @media only screen and (max-width: 576px){
@@ -25,20 +25,20 @@
 
 h3{
     font-size: $titulos-medida;
-    color:$color3;
+    color:white;
     text-align: map-get($mapa1 , alineacion );
     text-transform: uppercase;
     font-family: $font-principal;
     padding-top: map-get($mapa1 , padding-general );
     width: 90%;
     margin: map-get($mapa1 , margenes );
-    @include colores;
+    
     }
     
 p{
     font-family: $font-principal;
     font-size: $parrafos_medida;
-    color: $color3;
+    color: white;
     text-align: map-get($mapa1 , alineacion );
     width: 90%;
     margin: map-get($mapa1 , margenes );
