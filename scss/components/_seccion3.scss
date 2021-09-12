@@ -43,7 +43,7 @@ h3{
     text-transform: uppercase;
     font-family: $font-principal;
     padding-top: 40px;
-    @include colores;
+    
     }
     
 p{
@@ -51,7 +51,7 @@ p{
     font-size: $parrafos_medida;
     color: $color1;
     text-align: left;
-    @include colores;
+    
     }
 
 img{
