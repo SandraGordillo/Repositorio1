@@ -6,7 +6,15 @@
     background-color: $color1;
     height: 600px;
     align-items: center;
+<<<<<<< HEAD
     @include colores;
+=======
+<<<<<<< HEAD
+    
+=======
+    @include colores;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
+>>>>>>> f6c2153c57393c80179da7faf30e352069493f0e
     
 
 @media only screen and (max-width: 576px){
@@ -18,27 +26,59 @@
 
 @media only screen and (max-width: 768px){
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(1, 1fr);
+=======
+<<<<<<< HEAD
+    grid-template-columns: repeat(1, 1fr);
+=======
+    grid-template-columns: repeat(2, 1fr);
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
+>>>>>>> f6c2153c57393c80179da7faf30e352069493f0e
     margin: map-get($mapa1 , margenes );
     height: map-get($mapa1 , margenes );
         }
 
 h3{
     font-size: $titulos-medida;
+<<<<<<< HEAD
     color:$color3;
+=======
+<<<<<<< HEAD
+    color:white;
+=======
+    color:$color3;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
+>>>>>>> f6c2153c57393c80179da7faf30e352069493f0e
     text-align: map-get($mapa1 , alineacion );
     text-transform: uppercase;
     font-family: $font-principal;
     padding-top: map-get($mapa1 , padding-general );
     width: 90%;
     margin: map-get($mapa1 , margenes );
+<<<<<<< HEAD
     @include colores;
+=======
+<<<<<<< HEAD
+    
+=======
+    @include colores;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
+>>>>>>> f6c2153c57393c80179da7faf30e352069493f0e
     }
     
 p{
     font-family: $font-principal;
     font-size: $parrafos_medida;
+<<<<<<< HEAD
     color: $color3;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color: $color3;
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
+>>>>>>> f6c2153c57393c80179da7faf30e352069493f0e
     text-align: map-get($mapa1 , alineacion );
     width: 90%;
     margin: map-get($mapa1 , margenes );

@@ -13,6 +13,7 @@ footer{
 
     nav{
 
+<<<<<<< HEAD
         @media only screen and (max-width: 576px){
             display:none;
         }
@@ -21,6 +22,21 @@ footer{
         display:none;
         }
 
+=======
+<<<<<<< HEAD
+        
+@media only screen and (max-width: 576px){
+    display: none;
+    }
+
+@media only screen and (max-width: 768px){
+    display: none;
+    }
+
+
+=======
+>>>>>>> 00ec602fc207e0e778ffbc8bd9cd5987e6597b61
+>>>>>>> f6c2153c57393c80179da7faf30e352069493f0e
         ul{
         display: $display;
         justify-content: space-around;
