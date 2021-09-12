@@ -51,6 +51,7 @@ p{
     font-size: $parrafos_medida;
     color: $color1;
     text-align: left;
+    @include colores;
     }
 
 img{
