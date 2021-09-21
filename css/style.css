@@ -304,10 +304,12 @@ footer .cabezote {
   footer .cabezote {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
   }
 }
 footer #logoPersonal {
   width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

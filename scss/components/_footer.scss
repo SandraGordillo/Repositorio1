@@ -9,11 +9,13 @@ footer{
     @media only screen and (max-width: 576px){
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        text-align: center;
         }
     }
 
 #logoPersonal{
     width:$max-width;
+    text-align: center;
     }
 
 }
