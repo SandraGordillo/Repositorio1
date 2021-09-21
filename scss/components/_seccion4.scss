@@ -4,8 +4,7 @@
     grid-gap: 40px;
     grid-template-columns: repeat(4, 1fr);
     background-color: $color1;
-    height: 600px;
-    align-items: center;
+    height: auto;
     @include colores;
     
 

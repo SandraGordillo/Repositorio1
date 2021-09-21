@@ -4,45 +4,16 @@ footer{
         justify-content: space-around;
         align-items: map-get($mapa1 , alineacion );
         width: $max-width;
-        @extend %pantalla
+        @extend %pantalla;
+
+    @media only screen and (max-width: 576px){
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
     }
 
 #logoPersonal{
     width:$max-width;
     }
-
-    nav{
-
-        ul{
-        display: $display;
-        justify-content: space-around;
-        width: $max-width;
-        color:$color2;
-        list-style: none;
-        text-decoration: underline;
-
-        li{
-
-            a{
-                text-transform: uppercase;
-                list-style: none;
-                text-decoration: underline;
-                color: $color2;
-                
-
-            &:hover{
-                background-color: $color1;
-                color: $color3;
-                padding: 10px;
-            }
-
-            }
-
-
-        }
-    }
-}
-
-
 
 }
