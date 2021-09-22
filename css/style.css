@@ -312,4 +312,10 @@ footer #logoPersonal {
   text-align: center;
 }
 
+@media only screen and (max-width: 576px) {
+  .slide {
+    margin-bottom: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
