@@ -1,48 +1,44 @@
-header{
-    .cabezote{
-        display:$display;
+header {
+    .cabezote {
+        display: $display;
         justify-content: space-around;
         align-items: center;
         width: $max-width;
         @extend %pantalla
     }
 
-#logoPersonal{
-    width:$max-width;
+    #logoPersonal {
+        width: $max-width;
     }
 
-    nav{
+    nav {
 
-        ul{
-        display: $display;
-        justify-content: space-around;
-        width: $max-width;
-        color:$color2;
-        list-style: none;
-        text-decoration: none;
+        ul {
+            display: $display;
+            justify-content: space-around;
+            width: $max-width;
+            color: $color2;
+            list-style: none;
+            text-decoration: none;
 
-        li{
+            li {
 
-            a{
-                text-transform: uppercase;
-                list-style: none;
-                text-decoration: underline;
-                color: $color2;
-                
+                a {
+                    text-transform: uppercase;
+                    list-style: none;
+                    text-decoration: underline;
+                    color: $color2;
 
-            &:hover{
-                background-color: $color1;
-                color: $color3;
-                padding: 10px;
+                    &:hover {
+                        background-color: $color1;
+                        color: $color3;
+                        padding: 10px;
+                    }
+
+                }
+
             }
-
-            }
-
-
         }
     }
-}
-
-
 
 }

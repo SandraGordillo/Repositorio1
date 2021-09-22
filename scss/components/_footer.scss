@@ -1,21 +1,21 @@
-footer{
-    .cabezote{
-        display:$display;
+footer {
+    .cabezote {
+        display: $display;
         justify-content: space-around;
-        align-items: map-get($mapa1 , alineacion );
+        align-items: map-get($mapa1 , alineacion);
         width: $max-width;
         @extend %pantalla;
 
-    @media only screen and (max-width: 576px){
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        text-align: center;
+        @media only screen and (max-width: 576px) {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            text-align: center;
         }
     }
 
-#logoPersonal{
-    width:$max-width;
-    text-align: center;
+    #logoPersonal {
+        width: $max-width;
+        text-align: center;
     }
 
 }

@@ -47,7 +47,7 @@ header nav ul li a:hover {
   width: 80%;
   height: 500px;
   font-family: "Montserrat", sans-serif;
-  padding-top: 30px;
+  padding-top: 30 px;
 }
 @media only screen and (max-width: 576px) {
   #sobreMi {
@@ -65,7 +65,7 @@ header nav ul li a:hover {
     justify-content: space-around;
     margin: auto;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 30 px;
   }
 }
 #sobreMi .parrafo1 {
@@ -225,7 +225,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  padding-top: 30px;
+  padding-top: 30 px;
   width: 90%;
   margin: auto;
   color: blueviolet;
@@ -240,12 +240,12 @@ h1 {
   text-align: center;
   width: 90%;
   margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 30 px;
+  padding-bottom: 30 px;
 }
 #recomendaciones img {
   width: 30%;
-  padding-top: 30px;
+  padding-top: 30 px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -256,8 +256,8 @@ h1 {
   display: grid;
   grid-gap: 40px;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 30 px;
+  padding-bottom: 30 px;
   height: 400px;
   align-items: center;
 }
@@ -284,11 +284,11 @@ h1 {
   text-align: center;
   width: 90%;
   margin: auto;
-  padding-top: 30px;
+  padding-top: 30 px;
 }
 #contacto img {
   width: 10%;
-  padding-top: 30px;
+  padding-top: 30 px;
   margin: auto;
   display: flex;
   align-items: center;

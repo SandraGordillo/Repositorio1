@@ -5,34 +5,31 @@
     grid-gap: 20px;
     background-color: $bg-colorPrincipal;
     @include colores;
-    
 
-@media only screen and (max-width: 576px){
+    @media only screen and (max-width: 576px) {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         height: auto;
     }
 
-@media only screen and (max-width: 768px){
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: map-get($mapa1 , margenes );
+    @media only screen and (max-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: map-get($mapa1 , margenes);
     }
 
-img {
+    img {
         width: 90%;
-        align-items: map-get($mapa1 , alineacion );
-    } 
+        align-items: map-get($mapa1 , alineacion);
+    }
 
-
-h2 {
-    font-size: $titulos-medida;
-    color:$color1;
-    text-align: map-get($mapa1 , alineacion );
-    text-transform: uppercase;
-    font-family: $font-principal;
-    } 
+    h2 {
+        font-size: $titulos-medida;
+        color: $color1;
+        text-align: map-get($mapa1 , alineacion);
+        text-transform: uppercase;
+        font-family: $font-principal;
+    }
 }
-
 
 

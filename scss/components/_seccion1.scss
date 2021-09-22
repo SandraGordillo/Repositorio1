@@ -1,62 +1,56 @@
 #sobreMi {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
     height: 500px;
     font-family: $font-principal;
-    padding-top: map-get($mapa1 , padding-general );
+    padding-top: map-get($mapa1 , padding-general);
     @extend %pantalla;
-    
 
-
-@media only screen and (max-width: 576px){
+    @media only screen and (max-width: 576px) {
         display: $display;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin: map-get($mapa1 , margenes );
-        height: map-get($mapa1 , margenes );
+        margin: map-get($mapa1 , margenes);
+        height: map-get($mapa1 , margenes);
     }
 
-@media only screen and (max-width: 768px){
-    display: $display;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: map-get($mapa1 , margenes );
-    height: map-get($mapa1 , margenes );
-    padding-bottom: map-get($mapa1 , padding-general );
+    @media only screen and (max-width: 768px) {
+        display: $display;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: map-get($mapa1 , margenes);
+        height: map-get($mapa1 , margenes);
+        padding-bottom: map-get($mapa1 , padding-general);
     }
 
-.parrafo1{
-    
-    font-family: $font-principal;
-    display: $display;
-    justify-content: space-around;
-    text-align: map-get($mapa1 , alineacion );
-    width: $max-width;
-    font-size: $parrafos_medida;
-    @extend %pantalla;
+    .parrafo1 {
+        font-family: $font-principal;
+        display: $display;
+        justify-content: space-around;
+        text-align: map-get($mapa1 , alineacion);
+        width: $max-width;
+        font-size: $parrafos_medida;
+        @extend %pantalla;
     }
 }
 
-h1{
-    
+h1 {
     font-family: $font-principal;
     font-size: $titulos-medida;
     text-transform: uppercase;
-    color:$color1;
-    
-    }
+    color: $color1;
+}
 
-.parrafo1{
-    
+.parrafo1 {
     font-family: $font-principal;
     display: $display;
     justify-content: center;
     width: 50%;
     font-size: $parrafos_medida;
-    }
+}
 
-.fotoPerfil img{
+.fotoPerfil img {
     width: auto;
-    }
+}

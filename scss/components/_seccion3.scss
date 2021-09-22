@@ -1,61 +1,59 @@
-#estudios-experiencia{
+#estudios-experiencia {
     width: 90%;
     display: $display;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: map-get($mapa1 , margenes );
+    margin: map-get($mapa1 , margenes);
     padding-bottom: 40px;
     height: auto;
-    
 
-
-@media only screen and (max-width: 576px){
-    display: $display;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10px;
-    margin: map-get($mapa1 , margenes );
-    height: map-get($mapa1 , margenes );
+    @media only screen and (max-width: 576px) {
+        display: $display;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 10px;
+        margin: map-get($mapa1 , margenes);
+        height: map-get($mapa1 , margenes);
     }
 
-@media only screen and (max-width: 768px){
-    display: $display;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10px;
-    margin: map-get($mapa1 , margenes );
-    height: map-get($mapa1 , margenes );
+    @media only screen and (max-width: 768px) {
+        display: $display;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 10px;
+        margin: map-get($mapa1 , margenes);
+        height: map-get($mapa1 , margenes);
     }
 
-&:hover a{
-    background-color:$color1;
-    font-family: $font-principal;
-    font-size: $parrafos_medida;
-    color:$color3;
-    @include colores;
+    &:hover a {
+        background-color: $color1;
+        font-family: $font-principal;
+        font-size: $parrafos_medida;
+        color: $color3;
+        @include colores;
     }
 
-h3{
-    font-size: $titulos-medida;
-    color:$color1;
-    text-align: left;
-    text-transform: uppercase;
-    font-family: $font-principal;
-    padding-top: 40px;
-    
-    }
-    
-p{
-    font-family: $font-principal;
-    font-size: $parrafos_medida;
-    color: $color1;
-    text-align: left;
-    
+    h3 {
+        font-size: $titulos-medida;
+        color: $color1;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: $font-principal;
+        padding-top: 40px;
+
     }
 
-img{
-    width: 20%;
-    padding-top: 20px;
+    p {
+        font-family: $font-principal;
+        font-size: $parrafos_medida;
+        color: $color1;
+        text-align: left;
+
+    }
+
+    img {
+        width: 20%;
+        padding-top: 20px;
 
     }
 
