@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: map-get($mapa1 , margenes);
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     height: auto;
 
     @media only screen and (max-width: 576px) {

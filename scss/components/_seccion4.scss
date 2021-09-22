@@ -5,6 +5,10 @@
     grid-template-columns: repeat(4, 1fr);
     background-color: $color1;
     height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 20px;
+    
     @include colores;
 
     @media only screen and (max-width: 576px) {

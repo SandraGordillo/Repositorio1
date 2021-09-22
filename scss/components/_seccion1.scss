@@ -5,7 +5,8 @@
     width: 80%;
     height: 500px;
     font-family: $font-principal;
-    padding-top: map-get($mapa1 , padding-general);
+    padding-top: 20px;
+    padding-bottom: 60px;
     @extend %pantalla;
 
     @media only screen and (max-width: 576px) {

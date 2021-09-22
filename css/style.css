@@ -47,7 +47,8 @@ header nav ul li a:hover {
   width: 80%;
   height: 500px;
   font-family: "Montserrat", sans-serif;
-  padding-top: 30 px;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 @media only screen and (max-width: 576px) {
   #sobreMi {
@@ -102,6 +103,8 @@ h1 {
   align-items: center;
   grid-gap: 20px;
   background-color: #f4f4f4;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: blueviolet;
   color: white;
   color: black;
@@ -139,7 +142,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   height: auto;
 }
 @media only screen and (max-width: 576px) {
@@ -198,6 +202,9 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   background-color: blueviolet;
   height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  line-height: 20px;
   color: blueviolet;
   color: white;
   color: black;
@@ -256,8 +263,8 @@ h1 {
   display: grid;
   grid-gap: 40px;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 30 px;
-  padding-bottom: 30 px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   height: 400px;
   align-items: center;
 }
@@ -299,6 +306,8 @@ footer .cabezote {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media only screen and (max-width: 576px) {
   footer .cabezote {
@@ -314,7 +323,7 @@ footer #logoPersonal {
 
 @media only screen and (max-width: 576px) {
   .slide {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
